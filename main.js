@@ -115,3 +115,17 @@
  }
  
  calcularVolume()
+
+ /* Exercício 2*
+
+ calcularVolume()
+ */
+ 
+ let distanciaPercorrida = Number(prompt("Digite a distância percorrida em km: "))
+ let combustivelGasto = Number(prompt("Digite o combustível gasto: "))
+ 
+ let total = () =>{
+     alert(distanciaPercorrida/combustivelGasto)
+ }
+ 
+ total()
